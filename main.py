@@ -4,7 +4,7 @@ import socket
 
 print("\x1b[37m", "pzrepl's™ shell started!")
 while True:
-  inp = input(">");
+  inp = input(">")
   for i in range(10):
     if str(i) in inp:
       print("\x1b[31m", "Numbers are invalid", "\x1b[37m")
